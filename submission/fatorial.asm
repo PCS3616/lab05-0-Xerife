@@ -13,12 +13,12 @@ MM /102 ; salva no 0x102
 HM /000 ; finaliza codigo
 
 @ /0400
-JP /000 ; inicio da subrotina de verificacao dos crias do ddd 021
+K /000 ; inicio da subrotina de verificacao dos crias do ddd 021
 JZ /010 ; se for 0 desloca para 0010
 RS /400 ; finaliza subrotina dos crias
 
 @ /0500
-JP /000 ; inicio da subrotina do fatorial dos crias do RJ
+K /000 ; inicio da subrotina do fatorial dos crias do RJ
 LD /102 ; carrega valor do 0x102
 SB /302 ; subtrai 1
 MM /102 ; salva valor no 0x102
