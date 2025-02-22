@@ -14,7 +14,7 @@ HM /000 ; finaliza codigo
 
 @ /0400
 K /000 ; inicio da subrotina de verificacao dos crias do ddd 021
-JZ /010 ; se for 0 desloca para 0010
+JZ /00A ; se for 0 desloca para 0010
 RS /400 ; finaliza subrotina dos crias
 
 @ /0500
