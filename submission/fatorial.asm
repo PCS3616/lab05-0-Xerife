@@ -28,8 +28,5 @@ ML /102 ; multiplica pelo 0x102
 MM /100 ; salva valor no 0x100
 JP /502 ; se expoente != 0 volta para etapa 0502
 
-@ /0100
-K =005 ; valor no endereço 0x100
-
 @ /0302
 K =001 ; valor de i do loop
